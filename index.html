@@ -1,26 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>We're on</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="icon" href="https://www.andhrauniversity.edu.in/img/au-big-logo.png">
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         $(document).ready(function() {
-            $('.readmore').click(function(){
+            $('.readmore').click(function() {
                 $(this).prev('.remaining').slideToggle();
-                if($(this).text()=="Read More"){
+                if ($(this).text() == "Read More") {
                     $(this).text("Read Less");
-                }else{
+                } else {
                     $(this).text("Read More");
                 }
             });
         });
     </script>
 </head>
+
 <body>
+
+
+    <!-- navbar section -->
+
+
+    <!--hero section-->
+
+
+    <!-- trusted by -->
+
+
+
+    <!-- our achievements -->
+
+
+
+
+
+
+    <!-- we are on section -->
     <div class="wrapper">
         <h1>We're on</h1>
 
@@ -31,17 +56,20 @@
                 </div>
                 <h3>The Times of India</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <p class="remaining" style="display:none;"> Deserunt aliquam saepe rerum veniam neque consequuntur illo, molestiae quam consequatur totam officiis at quod reiciendis exercitationem tempore iusto sint odio a eveniet. Aut exercitationem inventore, minus modi quos animi error odio praesentium voluptates quibusdam dolorum corporis suscipit nostrum hic! Corporis vitae provident eligendi sequi dolorem nam libero mollitia a distinctio aliquam, debitis error, iusto id! Culpa?</p>
+                <p class="remaining" style="display:none;"> Deserunt aliquam saepe rerum veniam neque consequuntur illo, molestiae quam consequatur totam officiis at quod reiciendis exercitationem tempore iusto sint odio a eveniet. Aut exercitationem inventore, minus modi quos animi error odio
+                    praesentium voluptates quibusdam dolorum corporis suscipit nostrum hic! Corporis vitae provident eligendi sequi dolorem nam libero mollitia a distinctio aliquam, debitis error, iusto id! Culpa?</p>
                 <a href="#" class="readmore">Read More</a>
-                </div>
-                <div class="team_member">
+            </div>
+            <div class="team_member">
                 <div class="team_image">
                     <img src="https://p.kindpng.com/picc/s/247-2474478_logo-of-the-hindu-newspaper-hd-png-download.png" alt="times of india" height="80" width="260">
                 </div>
                 <h3>The Hindu</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
-                
-                <p class="remaining" style="display:none;">Eos assumenda neque magnam nihil reprehenderit earum, qui quos saepe, odit repellat, fugiat dolorem quae. Quidem corporis dolorem temporibus deserunt. Nisi ducimus totam distinctio accusantium sequi, dolorem tempora eligendi iste similique fugit voluptas expedita animi, eius quo. Modi nisi voluptates, deserunt atque consequuntur quibusdam commodi molestias quisquam rem fugit iure rerum voluptate explicabo quos, neque, itaque dolorem voluptatum. Dolorum, aliquam? Reprehenderit omnis quae quis placeat! Ab, ducimus?</p>
+
+                <p class="remaining" style="display:none;">Eos assumenda neque magnam nihil reprehenderit earum, qui quos saepe, odit repellat, fugiat dolorem quae. Quidem corporis dolorem temporibus deserunt. Nisi ducimus totam distinctio accusantium sequi, dolorem tempora eligendi iste similique
+                    fugit voluptas expedita animi, eius quo. Modi nisi voluptates, deserunt atque consequuntur quibusdam commodi molestias quisquam rem fugit iure rerum voluptate explicabo quos, neque, itaque dolorem voluptatum. Dolorum, aliquam? Reprehenderit
+                    omnis quae quis placeat! Ab, ducimus?</p>
                 <a href="#" class="read_more" onclick="showReadMore(this)">Read more</a>
             </div>
             <div class="team_member">
@@ -50,23 +78,80 @@
                 </div>
                 <h3>VCCircle</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <p class="remaining" style="display:none;">Temporibus dolorum delectus, et officia repudiandae, iste fugiat pariatur deleniti quidem provident, exercitationem veritatis qui. Repellendus mollitia esse, autem sequi libero ipsam praesentium error placeat ducimus sunt accusamus cupiditate ea obcaecati maiores quos ex minima laborum soluta amet illum blanditiis! Quam officiis error fugit quod, dolore cupiditate odio aliquam vero? Ducimus excepturi temporibus, molestiae necessitatibus incidunt, vel cum voluptatum facere tempora quaerat, eaque vero? Repellendus minima ex fugit dolorem debitis maiores incidunt fugiat mollitia expedita facilis rerum alias dolores voluptatem, consequuntur nesciunt qui unde facere quasi esse blanditiis illum neque velit laborum.</p>
+                <p class="remaining" style="display:none;">Temporibus dolorum delectus, et officia repudiandae, iste fugiat pariatur deleniti quidem provident, exercitationem veritatis qui. Repellendus mollitia esse, autem sequi libero ipsam praesentium error placeat ducimus sunt accusamus cupiditate
+                    ea obcaecati maiores quos ex minima laborum soluta amet illum blanditiis! Quam officiis error fugit quod, dolore cupiditate odio aliquam vero? Ducimus excepturi temporibus, molestiae necessitatibus incidunt, vel cum voluptatum facere
+                    tempora quaerat, eaque vero? Repellendus minima ex fugit dolorem debitis maiores incidunt fugiat mollitia expedita facilis rerum alias dolores voluptatem, consequuntur nesciunt qui unde facere quasi esse blanditiis illum neque velit
+                    laborum.
+                </p>
                 <a href="#" class="read_more" onclick="showReadMore(this)">Read more</a>
             </div>
         </div>
+    </div>
 
-                <script>
-                function showReadMore(element) {
-                var remainingText = element.previousElementSibling;
-                if (remainingText.style.display === "none") {
-                    remainingText.style.display = "inline";
-                    element.innerHTML = "Read less";
-                } else {
-                    remainingText.style.display = "none";
-                    element.innerHTML = "Read more";
-                }
-                }
-                </script>
+    <!-- testimonials section -->
+
+
+
+
+    <!-- app link section -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Edumoon</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">clubs</a></li>
+                        <li><a href="#">Recent Events</a></li>
+                    </ul>
                 </div>
-                </body>
-                </html>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li><a href="#">email</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/theEduMoon1/" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://twitter.com/theedumoon?lang=en" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/theedumoon/?hl=en" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://in.linkedin.com/company/edumoon" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function showReadMore(element) {
+            var remainingText = element.previousElementSibling;
+            if (remainingText.style.display === "none") {
+                remainingText.style.display = "inline";
+                element.innerHTML = "Read less";
+            } else {
+                remainingText.style.display = "none";
+                element.innerHTML = "Read more";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
