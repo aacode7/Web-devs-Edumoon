@@ -24,6 +24,7 @@ body{
 
 .wrapper {
     margin-top: 10%;
+    padding-bottom: 40px;
 }
 
 .wrapper h1 {
@@ -75,6 +76,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    bottom: 0;
 }
 
 .container {
