@@ -108,6 +108,11 @@ i{
     padding: 6px 6px;
     text-decoration: none;
     border-radius: 20px 20px 20px 20px;
+    background-image: url("https://media.licdn.com/dms/image/C4D0BAQEYft9pkEgTOw/company-logo_200_200/0/1653144834265?e=2147483647&v=beta&t=yxC1GQVS4qVGJTCjIL0ARC2Y_nPAt1J_8X_ddO9AHks");
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border: 1px black;
 }
 
 .button:hover {
