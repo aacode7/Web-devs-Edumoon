@@ -46,7 +46,63 @@ i {
 
 
 /* our achievements */
-
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.team{
+    margin:75px 0;
+}
+h1{
+text-align:center;
+font-weight:bold;
+letter-spacing:2px;
+color:#333;
+}
+h1:after
+{
+    content:" ";
+    background:"#333";
+    display:block;
+    height:30px;
+    width:150px;
+    margin:10px auto;
+}
+.flex-container{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+.flex-box{
+    width:200px;
+    height:220px;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    line-height:200px;
+    margin:70px;
+    padding:25px;
+    background-color: whitesmoke;
+    position:relative;
+    transition:0.5s;
+}
+.flex-box:hover{
+    background:var(--clr);
+    box-shadow:0 0 35px var(--clr);
+}
+.flex-box:before{
+    content:'';
+    position:absolute;
+    inset:2px;
+    background:whitesmoke;
+}
+.flex-box svg{
+    position:relative;
+    z-index:1;
+}
 
 /* we are on section */
 
