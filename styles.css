@@ -1,42 +1,5 @@
 /* navbar section */
 
-body {
-    background-color: #ffffff;
-    background-size: cover;
-    overflow-x: hidden;
-}
-
-.img-fluid {
-    width: 180px;
-}
-
-.ccc {
-    width: 800px;
-    height: 500px;
-    float: right;
-}
-
-button {
-    height: 50px;
-    width: 200px;
-}
-
-img {
-    float: left;
-    margin-left: 10px;
-    margin-right: 50px;
-    width: 200px;
-    height: 200px;
-}
-
-i {
-    color: white;
-}
-
-.nav-img {
-    width: 100px;
-    height: 100px;
-}
 
 
 /* hero section */
