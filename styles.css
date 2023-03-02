@@ -10,7 +10,7 @@ body {
     width: 180px;
 }
 
-.ccc {
+.herosection_img {
     width: 800px;
     object-fit: contain;
     float: right;
@@ -51,6 +51,12 @@ i {
 
 
 /* trusted by */
+
+.trustsection_item>a>img {
+    width: 170px;
+    object-fit: contain;
+    margin-right: 0px;
+}
 
 
 /* our achievements */
@@ -410,6 +416,9 @@ ul {
     .footer-col {
         width: 50%;
         margin-bottom: 30px;
+    }
+    .herosection_img {
+        display: none;
     }
 }
 
