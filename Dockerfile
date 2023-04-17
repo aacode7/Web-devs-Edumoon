@@ -6,7 +6,7 @@ COPY styles.css .
 COPY AICTIE.PNG .
 COPY download.png .
 COPY iso.png .
-COPY logoo.png .
+COPY logoo.jpg .
 COPY MoE-Logo.png .
 COPY msme.png .
 COPY README.md .
