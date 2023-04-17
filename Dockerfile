@@ -1,5 +1,5 @@
 FROM nginx
-WORKDIR /usr/edumoon/website
+WORKDIR /usr/share/nginx/edumoon
 COPY index.html .
 COPY style.css .
 COPY styles.css .
