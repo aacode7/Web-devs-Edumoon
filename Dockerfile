@@ -7,6 +7,9 @@ COPY ./index.html /usr/share/nginx/html
 # Copy the CSS files into the container
 COPY ./styles.css /usr/share/nginx/html/css
 
+# Copy the CSS files into the container
+COPY ./style.css /usr/share/nginx/html/css
+
 # Copy the images into the container
 COPY ./AICTIE.PNG /usr/share/nginx/html/images
 
@@ -26,7 +29,7 @@ COPY ./MoE-Logo.png /usr/share/nginx/html/images
 COPY ./msme.png /usr/share/nginx/html/images
 
 # Copy the images into the container
-COPY ./pntaq.png /usr/share/nginx/html/images
+COPY ./pontaq.png /usr/share/nginx/html/images
 
 # Copy the images into the container
 COPY ./sssujj.jpg /usr/share/nginx/html/images
