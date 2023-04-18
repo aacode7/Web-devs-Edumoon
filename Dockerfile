@@ -5,40 +5,40 @@ FROM nginx
 COPY ./index.html /usr/share/nginx/html
 
 # Copy the CSS files into the container
-COPY ./styles.css /usr/share/nginx/html/css
+COPY ./styles.css /usr/share/nginx/html
 
 # Copy the CSS files into the container
-COPY ./style.css /usr/share/nginx/html/css
+COPY ./style.css /usr/share/nginx/html
 
 # Copy the images into the container
-COPY ./AICTIE.PNG /usr/share/nginx/html/images
+COPY ./AICTIE.PNG /usr/share/nginx/html
 
 # Copy the images into the container
-COPY ./download.png /usr/share/nginx/html/images
+COPY ./download.png /usr/share/nginx/html
 
 # Copy the images into the container
-COPY ./iso.png /usr/share/nginx/html/images
+COPY ./iso.png /usr/share/nginx/html
 
 # Copy the images into the container
-COPY ./logoo.jpg /usr/share/nginx/html/images
+COPY ./logoo.jpg /usr/share/nginx/html
 
 # Copy the images into the container
-COPY ./MoE-Logo.png /usr/share/nginx/html/images
+COPY ./MoE-Logo.png /usr/share/nginx/html
 
 # Copy the images into the container
-COPY ./msme.png /usr/share/nginx/html/images
+COPY ./msme.png /usr/share/nginx/html
 
 # Copy the images into the container
-COPY ./pontaq.png /usr/share/nginx/html/images
+COPY ./pontaq.png /usr/share/nginx/html
 
 # Copy the images into the container
-COPY ./sssujj.jpg /usr/share/nginx/html/images
+COPY ./sssujj.jpg /usr/share/nginx/html
 
 # Copy the images into the container
-COPY ./startup.png /usr/share/nginx/html/images
+COPY ./startup.png /usr/share/nginx/html
 
 # Copy the images into the container
-COPY ./stpl.png /usr/share/nginx/html/images
+COPY ./stpl.png /usr/share/nginx/html
 
 # Expose port 80 for HTTP traffic
 EXPOSE 80
